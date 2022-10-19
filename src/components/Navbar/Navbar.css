@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+*{
+    font-family: 'Gruppo', cursive;
+}
+
+.container {
+    background-color: #f8f8ff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 40%;
+    list-style: none;
+    align-items: center;
+}
+
+
+.nav__link{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    color: black;
+}

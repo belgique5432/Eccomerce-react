@@ -32,10 +32,10 @@ export const ItemListContainer = () => {
 
 
     return (
-        <>
-        <Title greeting='Pablo'></Title>
+        <div className='Itemlist-container'>
+        <Title></Title>
         <ItemList data={data}></ItemList>
-        </>
+        </div>
     )
 }
 
